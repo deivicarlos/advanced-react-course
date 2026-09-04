@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Ada Whitfield",
+    "username": "awhitfield",
+    "email": "ada.whitfield@example.com",
+    "role": "admin",
+    "active": true,
+    "createdAt": "2024-01-15T09:24:00.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Mateo Rivas",
+    "username": "mrivas",
+    "email": "mateo.rivas@example.com",
+    "role": "editor",
+    "active": true,
+    "createdAt": "2024-02-03T14:05:00.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Priya Raghunathan",
+    "username": "praghunathan",
+    "email": "priya.raghunathan@example.com",
+    "role": "viewer",
+    "active": true,
+    "createdAt": "2024-02-27T08:41:00.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Tomas Lindqvist",
+    "username": "tlindqvist",
+    "email": "tomas.lindqvist@example.com",
+    "role": "editor",
+    "active": false,
+    "createdAt": "2024-03-12T17:52:00.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Nia Okonkwo",
+    "username": "nokonkwo",
+    "email": "nia.okonkwo@example.com",
+    "role": "admin",
+    "active": true,
+    "createdAt": "2024-04-01T11:10:00.000Z"
+  },
+  {
+    "id": 6,
+    "name": "Hugo Bernard",
+    "username": "hbernard",
+    "email": "hugo.bernard@example.com",
+    "role": "viewer",
+    "active": true,
+    "createdAt": "2024-05-19T06:33:00.000Z"
+  },
+  {
+    "id": 7,
+    "name": "Sofia Marchetti",
+    "username": "smarchetti",
+    "email": "sofia.marchetti@example.com",
+    "role": "editor",
+    "active": true,
+    "createdAt": "2024-06-08T13:47:00.000Z"
+  },
+  {
+    "id": 8,
+    "name": "Kenji Watanabe",
+    "username": "kwatanabe",
+    "email": "kenji.watanabe@example.com",
+    "role": "viewer",
+    "active": false,
+    "createdAt": "2024-07-22T19:15:00.000Z"
+  },
+  {
+    "id": 9,
+    "name": "Amara Diallo",
+    "username": "adiallo",
+    "email": "amara.diallo@example.com",
+    "role": "editor",
+    "active": true,
+    "createdAt": "2024-08-30T10:02:00.000Z"
+  },
+  {
+    "id": 10,
+    "name": "Lukas Novak",
+    "username": "lnovak",
+    "email": "lukas.novak@example.com",
+    "role": "viewer",
+    "active": true,
+    "createdAt": "2024-09-14T15:28:00.000Z"
+  }
+]

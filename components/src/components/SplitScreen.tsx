@@ -1,5 +1,6 @@
-import type { PropsWithChildren, ReactNode } from "react";
+import { useEffect, type PropsWithChildren, type ReactNode } from "react";
 import { styled } from "styled-components";
+import { getUsers } from "../server/api";
 
 const Container = styled.div`
   width: 100%;
@@ -18,6 +19,17 @@ type SplitScreenProps = PropsWithChildren & {
 };
 
 const SplitScreen = ({ left, right }: SplitScreenProps) => {
+  useEffect(() => {
+    async function fetchData() {
+      const response = await getUsers();
+
+      console.log({ response });
+      return response;
+    }
+
+    fetchData();
+  }, []);
+
   return (
     <Container>
       <Panel color="burlywood">{left}</Panel>
