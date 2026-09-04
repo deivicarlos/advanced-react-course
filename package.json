@@ -1,0 +1,25 @@
+{
+  "name": "advanced-react-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "components",
+    "drills",
+    "server"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deivicarlos/coding-prep.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deivicarlos/coding-prep/issues"
+  },
+  "homepage": "https://github.com/deivicarlos/coding-prep#readme"
+}
